@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+}
+
+li {
+    list-style-type: none;
+}
+
+.macbook {
+    margin-top: 70px;
+}
+
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: auto;
+}
+
+.macbook__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.macbook__item {
+    width: 200px;
+    margin-right: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.macbook__item:nth-child(3n+0) {
+    margin-right: 0px;
+}
+
+.macbook__item:nth-child(2) {
+    padding-top: 18px;
+}
+
+.macbook__item:nth-child(2) .macbook__photo {
+    margin-bottom: 12px;
+}
+
+.macbook__item:nth-child(3) {
+    width: 300px;
+    padding-top: 8px;
+}
+
+.macbook__change {
+    color: rgba(75, 75, 75, 0.568);
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+
+.macbook__name {
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.macbook__price {
+    color: rgba(75, 75, 75, 0.568);
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.macbook__buy {
+    width: 50px;
+    padding: 8px 0px 8px 0px;
+    border: 1px solid #0071e3;
+    border-radius: 20px;
+    background-color: #0071e3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.macbook__buy:hover {
+    background-color: transparent;
+    color: #0071e3;
+}
+
+.macbook__buy:active {
+    transform: scale(0.95, 0.95);
+}
+
+.macbook__info {
+    color: #0071e3;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.macbook__info:active {
+    transform: scale(0.98, 0.98);
+}
+
+span {
+    transform: scaleY(1.1);
+    color: rgba(0, 0, 0, 0.329);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.macbook__chip {
+    margin-bottom: 10px;
+}
+
+.macbook__chip-info {
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.macbook__pro-14-and-16 .macbook__photo {
+    margin-bottom: 15px;
+}
+
+.macbook__pro-14-and-16 .macbook__chip {
+    margin-bottom: 10px;
+}
